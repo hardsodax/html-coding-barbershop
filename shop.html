@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Барбершоп Бородинский </title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="inner-page">
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo">
@@ -70,18 +73,23 @@
         <fieldset>
             <legend>Группы товаров:</legend>  
             <ul>
+              
                 <li class="filter-option">
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" id="filter-shaving">
                   <label for="filter-shaving">Бритвенные принадлежности</label>
-                </li class="filter-option">
+                </li> 
+                <li class="filter-option">
+
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" type="radio" value="hair-care" checked id="filter-hair-care">
                   <label for="filter-hair-care">Средства для ухода</label>
                 </li>
-                </li class="filter-option">
+                <li class="filter-option">
+
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" type="radio" value="accessories" id="filter-accessories">
                   <label for="filter-accessories">Аксессуары</label>
                 </li>
-              </ul>
+               
+            </ul>
         </fieldset>
         <button type="submit" class="filter-button button">Показать</button>
       </form>
@@ -183,10 +191,10 @@
       </ul>
     <section class="product-navigation">
       <ul class="pagination-list">
-        <li class="pagination-item"><a href="#"></a>1</li>
-        <li class="pagination-item pagination-item-current"><a></a>2</li>
-        <li class="pagination-item"><a href="#"></a>3</li>
-        <li class="pagination-item"><a href="#"></a>4</li>
+        <li class="pagination-item"><a href="#">1</a></li>
+        <li class="pagination-item pagination-item-current">2<a></a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#">4</a></li>
       </ul>
     </section>
   </main>
